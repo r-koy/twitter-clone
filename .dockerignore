@@ -1,0 +1,36 @@
+# Binaries
+main
+*.exe
+*.out
+*.o
+
+# Logs
+*.log
+
+# Temporary files and directories
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Go specific
+*.test
+*.prof
+
+# Go cache and build directories
+bin/
+pkg/
+.tmp/
+
+# Docker specific
+Dockerfile
+.dockerignore
+
+# Git
+.git
+.gitignore
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
