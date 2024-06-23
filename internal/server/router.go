@@ -9,10 +9,8 @@ import (
 
 func NewRouter() http.Handler {
 	r := chi.NewRouter()
-
 	r.Use(middleware.Logger)
 
 	r.Get("/ping", health.Ping)
-
 	return r
 }
